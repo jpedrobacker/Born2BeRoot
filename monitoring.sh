@@ -26,3 +26,10 @@ wall "	#Architecture: $arch
 	#User log: $log
 	#Network: IP $ip ($macad)
 	#Sudo: $sudo cmd"
+
+
+Configure contrab -e
+	root@login:~# sudo crontab -e
+	*/10 * * * * sh /path/to/file/monitoring.sh
+	root@login:~# systemctl enable cron.service
+	root@login:~# reboot
