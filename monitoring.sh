@@ -1,7 +1,6 @@
 #!/bin/bash
-The number of virtual processors: uname -a
+The architecture of your operating system and its kernel version: uname -a
 The number of physical processors: grep "physical id" /proc/cpuinfo | sort | uniq | wc -l
-The number of virtual processors: 
 The number of virtual processors: 
 The current available RAM on your server and its utilization rate as a percentage: 
 The current available memory on your server and its utilization rate as a percentage: 
