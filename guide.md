@@ -1,14 +1,18 @@
     # check if ufw service is running
     service ufw status
+    
     # check if ssh is running
     service ssh status
+    
     # check the current system is installed
     uname -a
+    
     # check the current system is installed
     cat /etc/os-release
 
     # check groups of a user
     groups username
+    
     # create a user
     adduser username
 
